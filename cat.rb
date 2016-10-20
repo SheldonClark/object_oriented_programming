@@ -6,3 +6,6 @@ class Cat
 		@meal_time = meal_time
 	end
 end
+
+garfield = Cat.new(garfield, lasagna, 12)
+sparkles = Cat.new(sparkles, tuna, 12)
