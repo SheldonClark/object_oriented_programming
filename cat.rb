@@ -10,6 +10,11 @@ class Cat
 	#returns when the cat eats at
 		"#{@name} eats at #{@meal_time} PM."
 	end
+
+	def meow
+	#returns everything about the cat
+		"My name is #{@name} and I eat #{@preferred_food} at #{@meal_time} PM"
+	end
 end
 
 garfield = Cat.new(garfield, lasagna, 12)
