@@ -17,5 +17,8 @@ class Cat
 	end
 end
 
-garfield = Cat.new(garfield, lasagna, 12)
-sparkles = Cat.new(sparkles, tuna, 12)
+garfield = Cat.new(garfield, "lasagna", 12)
+sparkles = Cat.new(sparkles, "tuna", 12)
+
+puts garfield.meow
+puts sparkles.meow
