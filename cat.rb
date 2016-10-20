@@ -20,5 +20,5 @@ end
 garfield = Cat.new(garfield, "lasagna", 12)
 sparkles = Cat.new(sparkles, "tuna", 12)
 
-puts garfield.meow
-puts sparkles.meow
+garfield.meow
+sparkles.meow
